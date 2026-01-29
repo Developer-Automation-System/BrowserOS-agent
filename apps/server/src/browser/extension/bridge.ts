@@ -27,6 +27,12 @@ interface PendingRequest {
   timeout: NodeJS.Timeout
 }
 
+interface WindowRegistrationPromise {
+  resolve: (clientId: string) => void
+  reject: (error: Error) => void
+  timeout: NodeJS.Timeout
+}
+
 export class ControllerBridge {
   private wss: WebSocketServer
   private clients = new Map<string, WebSocket>()
@@ -36,6 +42,8 @@ export class ControllerBridge {
   private logger: Logger
   // Window ownership: maps windowId to clientId for multi-profile routing
   private windowOwnership = new Map<number, string>()
+  // Promises waiting for window registration
+  private windowRegistrationPromises = new Map<number, WindowRegistrationPromise>()
 
   constructor(port: number, logger: Logger) {
     this.logger = logger
@@ -140,11 +148,8 @@ export class ControllerBridge {
     const payloadObj = payload as Record<string, unknown> | null
     const windowId = payloadObj?.windowId as number | undefined
 
-    // FIXME: Race condition - when a new window is created, the window_created
-    // WebSocket message may not be processed before requests arrive for that window.
-    // This causes fallback to primaryClientId. For single-profile setups this works,
-    // but breaks multi-profile routing. Proper fix: poll/wait for window ownership
-    // registration here (e.g., retry for up to 500ms before falling back).
+    // Wait for window ownership registration if windowId is provided but not yet registered
+    // This fixes the race condition when multiple BrowserOS instances run concurrently
     let targetClientId = this.primaryClientId
     if (windowId !== undefined) {
       const ownerClientId = this.windowOwnership.get(windowId)
@@ -155,16 +160,51 @@ export class ControllerBridge {
           targetClientId,
         })
       } else {
-        this.logger.warn('No owner found for windowId, using primary', {
-          windowId,
-          primaryClientId: this.primaryClientId,
-        })
+        // Await window registration using promise-based system (no polling)
+        try {
+          const registeredClientId = await this.waitForWindowRegistration(windowId, 2000)
+          if (registeredClientId && this.clients.has(registeredClientId)) {
+            targetClientId = registeredClientId
+            this.logger.debug('Window ownership registered after await', {
+              windowId,
+              targetClientId,
+            })
+          } else {
+            // Fall back to primaryClientId if registration didn't provide valid client
+            this.logger.warn('Window registered but client not found, using primary client', {
+              windowId,
+              registeredClientId,
+              primaryClientId: this.primaryClientId,
+            })
+          }
+        } catch (error) {
+          // Timeout or error - fall back to primaryClientId
+          // This is safe because agent and controller extensions are in the same browser instance
+          this.logger.warn('Window registration timeout, using primary client', {
+            windowId,
+            primaryClientId: this.primaryClientId,
+            error: error instanceof Error ? error.message : String(error),
+            registeredWindows: Array.from(this.windowOwnership.keys()),
+          })
+        }
       }
     }
 
-    const client = targetClientId ? this.clients.get(targetClientId) : null
+    // Validate that we have a valid client before proceeding
+    if (!targetClientId) {
+      throw new Error('BrowserOS helper service not connected: no primary client available')
+    }
+
+    const client = this.clients.get(targetClientId)
     if (!client) {
-      throw new Error('BrowserOS helper service not connected')
+      // This should not happen if primaryClientId is set correctly, but handle it gracefully
+      this.logger.error('Target client not found in clients map', {
+        targetClientId,
+        primaryClientId: this.primaryClientId,
+        availableClients: Array.from(this.clients.keys()),
+        windowId,
+      })
+      throw new Error(`BrowserOS helper service not connected: client ${targetClientId} not found`)
     }
 
     const id = `${Date.now()}-${++this.requestCounter}`
@@ -323,6 +363,14 @@ export class ControllerBridge {
 
     for (const windowId of windowIds) {
       this.windowOwnership.set(windowId, clientId)
+      
+      // Resolve any pending promises waiting for this windowId
+      const pendingPromise = this.windowRegistrationPromises.get(windowId)
+      if (pendingPromise) {
+        clearTimeout(pendingPromise.timeout)
+        pendingPromise.resolve(clientId)
+        this.windowRegistrationPromises.delete(windowId)
+      }
     }
 
     // this.logger.info('Registered windows for client', {
@@ -339,6 +387,15 @@ export class ControllerBridge {
     }
 
     this.windowOwnership.set(windowId, clientId)
+    
+    // Resolve any pending promises waiting for this windowId
+    const pendingPromise = this.windowRegistrationPromises.get(windowId)
+    if (pendingPromise) {
+      clearTimeout(pendingPromise.timeout)
+      pendingPromise.resolve(clientId)
+      this.windowRegistrationPromises.delete(windowId)
+    }
+    
     // this.logger.info('Window created and registered', { clientId, windowId })
   }
 
@@ -353,5 +410,59 @@ export class ControllerBridge {
       this.windowOwnership.delete(windowId)
       this.logger.debug('Window removed from registry', { clientId, windowId })
     }
+    
+    // Reject any pending promises waiting for this windowId (window was removed before registration)
+    const pendingPromise = this.windowRegistrationPromises.get(windowId)
+    if (pendingPromise) {
+      clearTimeout(pendingPromise.timeout)
+      pendingPromise.reject(new Error(`Window ${windowId} was removed before registration completed`))
+      this.windowRegistrationPromises.delete(windowId)
+    }
+  }
+
+  /**
+   * Wait for a windowId to be registered in windowOwnership map
+   * Returns a promise that resolves when the windowId is registered, or rejects on timeout
+   */
+  private waitForWindowRegistration(windowId: number, timeoutMs: number): Promise<string> {
+    // Check if already registered
+    const existingOwner = this.windowOwnership.get(windowId)
+    if (existingOwner && this.clients.has(existingOwner)) {
+      return Promise.resolve(existingOwner)
+    }
+
+    // Check if there's already a pending promise for this windowId
+    const existingPromise = this.windowRegistrationPromises.get(windowId)
+    if (existingPromise) {
+      // Reuse existing promise (multiple requests waiting for same windowId)
+      return new Promise((resolve, reject) => {
+        const originalResolve = existingPromise.resolve
+        const originalReject = existingPromise.reject
+        
+        existingPromise.resolve = (clientId: string) => {
+          originalResolve(clientId)
+          resolve(clientId)
+        }
+        
+        existingPromise.reject = (error: Error) => {
+          originalReject(error)
+          reject(error)
+        }
+      })
+    }
+
+    // Create new promise for this windowId
+    return new Promise((resolve, reject) => {
+      const timeout = setTimeout(() => {
+        this.windowRegistrationPromises.delete(windowId)
+        reject(new Error(`Window registration timeout for windowId ${windowId} after ${timeoutMs}ms`))
+      }, timeoutMs)
+
+      this.windowRegistrationPromises.set(windowId, {
+        resolve,
+        reject,
+        timeout,
+      })
+    })
   }
 }

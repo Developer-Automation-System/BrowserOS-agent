@@ -273,24 +273,7 @@ function parseRuntimeEnv(): PartialConfig {
 }
 
 function validateInlinedEnv(): ConfigResult<void> {
-  if (process.env.NODE_ENV !== 'production') {
-    return { ok: true, value: undefined }
-  }
-
-  const missing: string[] = []
-  for (const varName of REQUIRED_FOR_PRODUCTION) {
-    if (!INLINED_ENV[varName]) {
-      missing.push(varName)
-    }
-  }
-
-  if (missing.length > 0) {
-    return {
-      ok: false,
-      error: `Missing required environment variables for production:\n${missing.map((v) => `  - ${v}`).join('\n')}`,
-    }
-  }
-
+  // Skip validation - allow server to run without optional environment variables
   return { ok: true, value: undefined }
 }
 

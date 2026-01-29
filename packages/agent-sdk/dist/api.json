@@ -40,7 +40,7 @@
 							"fileName": "packages/agent-sdk/src/errors.ts",
 							"line": 43,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L43"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L43"
 						}
 					],
 					"signatures": [
@@ -55,7 +55,7 @@
 									"fileName": "packages/agent-sdk/src/errors.ts",
 									"line": 43,
 									"character": 2,
-									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L43"
+									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L43"
 								}
 							],
 							"parameters": [
@@ -145,7 +145,7 @@
 							"fileName": "packages/agent-sdk/src/errors.ts",
 							"line": 8,
 							"character": 20,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L8"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L8"
 						}
 					],
 					"type": {
@@ -253,7 +253,7 @@
 							"fileName": "packages/agent-sdk/src/errors.ts",
 							"line": 9,
 							"character": 20,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L9"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L9"
 						}
 					],
 					"type": {
@@ -645,7 +645,7 @@
 					"fileName": "packages/agent-sdk/src/errors.ts",
 					"line": 42,
 					"character": 13,
-					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L42"
+					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L42"
 				}
 			],
 			"extendedTypes": [
@@ -711,7 +711,7 @@
 							"fileName": "packages/agent-sdk/src/agent.ts",
 							"line": 55,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L55"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L55"
 						}
 					],
 					"signatures": [
@@ -726,7 +726,7 @@
 									"fileName": "packages/agent-sdk/src/agent.ts",
 									"line": 55,
 									"character": 2,
-									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L55"
+									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L55"
 								}
 							],
 							"parameters": [
@@ -766,7 +766,7 @@
 							"fileName": "packages/agent-sdk/src/agent.ts",
 							"line": 45,
 							"character": 11,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L45"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L45"
 						}
 					],
 					"type": {
@@ -793,7 +793,7 @@
 							"fileName": "packages/agent-sdk/src/agent.ts",
 							"line": 48,
 							"character": 11,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L48"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L48"
 						}
 					],
 					"type": {
@@ -818,7 +818,7 @@
 											"fileName": "packages/shared/src/schemas/browser-context.ts",
 											"line": 46,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L46"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L46"
 										}
 									],
 									"type": {
@@ -841,7 +841,7 @@
 															"fileName": "packages/shared/src/schemas/browser-context.ts",
 															"line": 16,
 															"character": 2,
-															"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L16"
+															"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L16"
 														}
 													],
 													"type": {
@@ -862,7 +862,7 @@
 															"fileName": "packages/shared/src/schemas/browser-context.ts",
 															"line": 18,
 															"character": 2,
-															"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L18"
+															"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L18"
 														}
 													],
 													"type": {
@@ -883,7 +883,7 @@
 															"fileName": "packages/shared/src/schemas/browser-context.ts",
 															"line": 17,
 															"character": 2,
-															"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L17"
+															"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L17"
 														}
 													],
 													"type": {
@@ -918,7 +918,7 @@
 											"fileName": "packages/shared/src/schemas/browser-context.ts",
 											"line": 50,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L50"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L50"
 										}
 									],
 									"type": {
@@ -943,7 +943,7 @@
 																"fileName": "packages/shared/src/schemas/browser-context.ts",
 																"line": 31,
 																"character": 2,
-																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L31"
+																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L31"
 															}
 														],
 														"type": {
@@ -962,7 +962,7 @@
 																"fileName": "packages/shared/src/schemas/browser-context.ts",
 																"line": 32,
 																"character": 2,
-																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L32"
+																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L32"
 															}
 														],
 														"type": {
@@ -997,7 +997,7 @@
 											"fileName": "packages/shared/src/schemas/browser-context.ts",
 											"line": 49,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L49"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L49"
 										}
 									],
 									"type": {
@@ -1021,7 +1021,7 @@
 											"fileName": "packages/shared/src/schemas/browser-context.ts",
 											"line": 47,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L47"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L47"
 										}
 									],
 									"type": {
@@ -1046,7 +1046,7 @@
 																"fileName": "packages/shared/src/schemas/browser-context.ts",
 																"line": 16,
 																"character": 2,
-																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L16"
+																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L16"
 															}
 														],
 														"type": {
@@ -1067,7 +1067,7 @@
 																"fileName": "packages/shared/src/schemas/browser-context.ts",
 																"line": 18,
 																"character": 2,
-																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L18"
+																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L18"
 															}
 														],
 														"type": {
@@ -1088,7 +1088,7 @@
 																"fileName": "packages/shared/src/schemas/browser-context.ts",
 																"line": 17,
 																"character": 2,
-																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L17"
+																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L17"
 															}
 														],
 														"type": {
@@ -1124,7 +1124,7 @@
 											"fileName": "packages/shared/src/schemas/browser-context.ts",
 											"line": 48,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L48"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L48"
 										}
 									],
 									"type": {
@@ -1149,7 +1149,7 @@
 																"fileName": "packages/shared/src/schemas/browser-context.ts",
 																"line": 16,
 																"character": 2,
-																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L16"
+																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L16"
 															}
 														],
 														"type": {
@@ -1170,7 +1170,7 @@
 																"fileName": "packages/shared/src/schemas/browser-context.ts",
 																"line": 18,
 																"character": 2,
-																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L18"
+																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L18"
 															}
 														],
 														"type": {
@@ -1191,7 +1191,7 @@
 																"fileName": "packages/shared/src/schemas/browser-context.ts",
 																"line": 17,
 																"character": 2,
-																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L17"
+																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L17"
 															}
 														],
 														"type": {
@@ -1227,7 +1227,7 @@
 											"fileName": "packages/shared/src/schemas/browser-context.ts",
 											"line": 45,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L45"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L45"
 										}
 									],
 									"type": {
@@ -1271,7 +1271,7 @@
 							"fileName": "packages/agent-sdk/src/agent.ts",
 							"line": 46,
 							"character": 11,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L46"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L46"
 						}
 					],
 					"type": {
@@ -1296,7 +1296,7 @@
 											"fileName": "packages/shared/src/schemas/llm.ts",
 											"line": 70,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/llm.ts#L70"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/llm.ts#L70"
 										}
 									],
 									"type": {
@@ -1317,7 +1317,7 @@
 											"fileName": "packages/shared/src/schemas/llm.ts",
 											"line": 66,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/llm.ts#L66"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/llm.ts#L66"
 										}
 									],
 									"type": {
@@ -1338,7 +1338,7 @@
 											"fileName": "packages/shared/src/schemas/llm.ts",
 											"line": 67,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/llm.ts#L67"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/llm.ts#L67"
 										}
 									],
 									"type": {
@@ -1359,7 +1359,7 @@
 											"fileName": "packages/shared/src/schemas/llm.ts",
 											"line": 65,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/llm.ts#L65"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/llm.ts#L65"
 										}
 									],
 									"type": {
@@ -1378,7 +1378,7 @@
 											"fileName": "packages/shared/src/schemas/llm.ts",
 											"line": 64,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/llm.ts#L64"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/llm.ts#L64"
 										}
 									],
 									"type": {
@@ -1440,7 +1440,7 @@
 											"fileName": "packages/shared/src/schemas/llm.ts",
 											"line": 69,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/llm.ts#L69"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/llm.ts#L69"
 										}
 									],
 									"type": {
@@ -1461,7 +1461,7 @@
 											"fileName": "packages/shared/src/schemas/llm.ts",
 											"line": 68,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/llm.ts#L68"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/llm.ts#L68"
 										}
 									],
 									"type": {
@@ -1482,7 +1482,7 @@
 											"fileName": "packages/shared/src/schemas/llm.ts",
 											"line": 71,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/llm.ts#L71"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/llm.ts#L71"
 										}
 									],
 									"type": {
@@ -1503,7 +1503,7 @@
 											"fileName": "packages/shared/src/schemas/llm.ts",
 											"line": 72,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/llm.ts#L72"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/llm.ts#L72"
 										}
 									],
 									"type": {
@@ -1550,7 +1550,7 @@
 							"fileName": "packages/agent-sdk/src/agent.ts",
 							"line": 47,
 							"character": 11,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L47"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L47"
 						}
 					],
 					"type": {
@@ -1582,7 +1582,7 @@
 							"fileName": "packages/agent-sdk/src/agent.ts",
 							"line": 49,
 							"character": 11,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L49"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L49"
 						}
 					],
 					"type": {
@@ -1606,13 +1606,13 @@
 							"fileName": "packages/agent-sdk/src/agent.ts",
 							"line": 68,
 							"character": 6,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L68"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L68"
 						},
 						{
 							"fileName": "packages/agent-sdk/src/agent.ts",
 							"line": 72,
 							"character": 6,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L72"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L72"
 						}
 					],
 					"getSignature": {
@@ -1626,7 +1626,7 @@
 								"fileName": "packages/agent-sdk/src/agent.ts",
 								"line": 68,
 								"character": 6,
-								"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L68"
+								"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L68"
 							}
 						],
 						"type": {
@@ -1659,7 +1659,7 @@
 								"fileName": "packages/agent-sdk/src/agent.ts",
 								"line": 72,
 								"character": 6,
-								"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L72"
+								"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L72"
 							}
 						],
 						"parameters": [
@@ -1711,7 +1711,7 @@
 							"fileName": "packages/agent-sdk/src/agent.ts",
 							"line": 87,
 							"character": 8,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L87"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L87"
 						}
 					],
 					"signatures": [
@@ -1726,7 +1726,7 @@
 									"fileName": "packages/agent-sdk/src/agent.ts",
 									"line": 87,
 									"character": 8,
-									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L87"
+									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L87"
 								}
 							],
 							"type": {
@@ -1769,7 +1769,7 @@
 							"fileName": "packages/agent-sdk/src/agent.ts",
 							"line": 147,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L147"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L147"
 						}
 					],
 					"signatures": [
@@ -1825,7 +1825,7 @@
 									"fileName": "packages/agent-sdk/src/agent.ts",
 									"line": 147,
 									"character": 2,
-									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L147"
+									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L147"
 								}
 							],
 							"parameters": [
@@ -1904,7 +1904,7 @@
 							"fileName": "packages/agent-sdk/src/agent.ts",
 							"line": 76,
 							"character": 8,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L76"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L76"
 						}
 					],
 					"signatures": [
@@ -1919,7 +1919,7 @@
 									"fileName": "packages/agent-sdk/src/agent.ts",
 									"line": 76,
 									"character": 8,
-									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L76"
+									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L76"
 								}
 							],
 							"type": {
@@ -1952,7 +1952,7 @@
 							"fileName": "packages/agent-sdk/src/agent.ts",
 							"line": 101,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L101"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L101"
 						}
 					],
 					"signatures": [
@@ -1967,7 +1967,7 @@
 									"fileName": "packages/agent-sdk/src/agent.ts",
 									"line": 101,
 									"character": 2,
-									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L101"
+									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L101"
 								}
 							],
 							"parameters": [
@@ -2002,7 +2002,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 15,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L15"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L15"
 																}
 															],
 															"type": {
@@ -2021,7 +2021,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 14,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L14"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L14"
 																}
 															],
 															"type": {
@@ -2061,7 +2061,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 22,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L22"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L22"
 																}
 															],
 															"type": {
@@ -2100,7 +2100,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 26,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L26"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L26"
 																}
 															],
 															"type": {
@@ -2139,7 +2139,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 31,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L31"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L31"
 																}
 															],
 															"type": {
@@ -2160,7 +2160,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 32,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L32"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L32"
 																}
 															],
 															"type": {
@@ -2179,7 +2179,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 30,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L30"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L30"
 																}
 															],
 															"type": {
@@ -2220,7 +2220,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 40,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L40"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L40"
 																}
 															],
 															"type": {
@@ -2259,7 +2259,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 45,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L45"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L45"
 																}
 															],
 															"type": {
@@ -2278,7 +2278,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 44,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L44"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L44"
 																}
 															],
 															"type": {
@@ -2318,7 +2318,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 53,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L53"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L53"
 																}
 															],
 															"type": {
@@ -2337,7 +2337,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 52,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L52"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L52"
 																}
 															],
 															"type": {
@@ -2377,7 +2377,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 62,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L62"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L62"
 																}
 															],
 															"type": {
@@ -2396,7 +2396,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 61,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L61"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L61"
 																}
 															],
 															"type": {
@@ -2415,7 +2415,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 60,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L60"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L60"
 																}
 															],
 															"type": {
@@ -2456,7 +2456,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 71,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L71"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L71"
 																}
 															],
 															"type": {
@@ -2475,7 +2475,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 70,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L70"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L70"
 																}
 															],
 															"type": {
@@ -2515,7 +2515,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 79,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L79"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L79"
 																}
 															],
 															"type": {
@@ -2534,7 +2534,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 78,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L78"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L78"
 																}
 															],
 															"type": {
@@ -2574,7 +2574,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 88,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L88"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L88"
 																}
 															],
 															"type": {
@@ -2593,7 +2593,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 87,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L87"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L87"
 																}
 															],
 															"type": {
@@ -2612,7 +2612,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 86,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L86"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L86"
 																}
 															],
 															"type": {
@@ -2653,7 +2653,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 97,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L97"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L97"
 																}
 															],
 															"type": {
@@ -2672,7 +2672,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 96,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L96"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L96"
 																}
 															],
 															"type": {
@@ -2712,7 +2712,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 105,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L105"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L105"
 																}
 															],
 															"type": {
@@ -2731,7 +2731,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 106,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L106"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L106"
 																}
 															],
 															"type": {
@@ -2750,7 +2750,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 104,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L104"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L104"
 																}
 															],
 															"type": {
@@ -2791,7 +2791,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 116,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L116"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L116"
 																}
 															],
 															"type": {
@@ -2810,7 +2810,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 115,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L115"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L115"
 																}
 															],
 															"type": {
@@ -2829,7 +2829,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 114,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L114"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L114"
 																}
 															],
 															"type": {
@@ -2872,7 +2872,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 127,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L127"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L127"
 																}
 															],
 															"type": {
@@ -2891,7 +2891,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 125,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L125"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L125"
 																}
 															],
 															"type": {
@@ -2910,7 +2910,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 126,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L126"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L126"
 																}
 															],
 															"type": {
@@ -2929,7 +2929,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 124,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L124"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L124"
 																}
 															],
 															"type": {
@@ -2971,7 +2971,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 138,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L138"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L138"
 																}
 															],
 															"type": {
@@ -2990,7 +2990,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 137,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L137"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L137"
 																}
 															],
 															"type": {
@@ -3009,7 +3009,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 136,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L136"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L136"
 																}
 															],
 															"type": {
@@ -3052,7 +3052,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 148,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L148"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L148"
 																}
 															],
 															"type": {
@@ -3071,7 +3071,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 147,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L147"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L147"
 																}
 															],
 															"type": {
@@ -3090,7 +3090,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 146,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L146"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L146"
 																}
 															],
 															"type": {
@@ -3131,7 +3131,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 158,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L158"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L158"
 																}
 															],
 															"type": {
@@ -3150,7 +3150,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 157,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L157"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L157"
 																}
 															],
 															"type": {
@@ -3169,7 +3169,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 156,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L156"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L156"
 																}
 															],
 															"type": {
@@ -3210,7 +3210,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 167,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L167"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L167"
 																}
 															],
 															"type": {
@@ -3231,7 +3231,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 169,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L169"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L169"
 																}
 															],
 															"type": {
@@ -3250,7 +3250,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 166,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L166"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L166"
 																}
 															],
 															"type": {
@@ -3269,7 +3269,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 168,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L168"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L168"
 																}
 															],
 															"type": {
@@ -3311,7 +3311,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 180,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L180"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L180"
 																}
 															],
 															"type": {
@@ -3330,7 +3330,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 178,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L178"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L178"
 																}
 															],
 															"type": {
@@ -3349,7 +3349,7 @@
 																	"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																	"line": 179,
 																	"character": 2,
-																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L179"
+																	"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L179"
 																}
 															],
 															"type": {
@@ -3402,7 +3402,7 @@
 							"fileName": "packages/agent-sdk/src/agent.ts",
 							"line": 171,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L171"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L171"
 						}
 					],
 					"signatures": [
@@ -3458,7 +3458,7 @@
 									"fileName": "packages/agent-sdk/src/agent.ts",
 									"line": 171,
 									"character": 2,
-									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L171"
+									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L171"
 								}
 							],
 							"typeParameters": [
@@ -3562,7 +3562,7 @@
 							"fileName": "packages/agent-sdk/src/agent.ts",
 							"line": 118,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L118"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L118"
 						}
 					],
 					"signatures": [
@@ -3618,7 +3618,7 @@
 									"fileName": "packages/agent-sdk/src/agent.ts",
 									"line": 118,
 									"character": 2,
-									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L118"
+									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L118"
 								}
 							],
 							"parameters": [
@@ -3697,7 +3697,7 @@
 							"fileName": "packages/agent-sdk/src/agent.ts",
 							"line": 97,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L97"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L97"
 						}
 					],
 					"signatures": [
@@ -3712,7 +3712,7 @@
 									"fileName": "packages/agent-sdk/src/agent.ts",
 									"line": 97,
 									"character": 2,
-									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L97"
+									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L97"
 								}
 							],
 							"parameters": [
@@ -3769,7 +3769,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 15,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L15"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L15"
 																						}
 																					],
 																					"type": {
@@ -3788,7 +3788,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 14,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L14"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L14"
 																						}
 																					],
 																					"type": {
@@ -3828,7 +3828,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 22,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L22"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L22"
 																						}
 																					],
 																					"type": {
@@ -3867,7 +3867,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 26,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L26"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L26"
 																						}
 																					],
 																					"type": {
@@ -3906,7 +3906,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 31,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L31"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L31"
 																						}
 																					],
 																					"type": {
@@ -3927,7 +3927,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 32,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L32"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L32"
 																						}
 																					],
 																					"type": {
@@ -3946,7 +3946,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 30,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L30"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L30"
 																						}
 																					],
 																					"type": {
@@ -3987,7 +3987,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 40,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L40"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L40"
 																						}
 																					],
 																					"type": {
@@ -4026,7 +4026,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 45,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L45"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L45"
 																						}
 																					],
 																					"type": {
@@ -4045,7 +4045,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 44,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L44"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L44"
 																						}
 																					],
 																					"type": {
@@ -4085,7 +4085,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 53,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L53"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L53"
 																						}
 																					],
 																					"type": {
@@ -4104,7 +4104,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 52,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L52"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L52"
 																						}
 																					],
 																					"type": {
@@ -4144,7 +4144,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 62,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L62"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L62"
 																						}
 																					],
 																					"type": {
@@ -4163,7 +4163,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 61,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L61"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L61"
 																						}
 																					],
 																					"type": {
@@ -4182,7 +4182,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 60,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L60"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L60"
 																						}
 																					],
 																					"type": {
@@ -4223,7 +4223,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 71,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L71"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L71"
 																						}
 																					],
 																					"type": {
@@ -4242,7 +4242,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 70,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L70"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L70"
 																						}
 																					],
 																					"type": {
@@ -4282,7 +4282,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 79,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L79"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L79"
 																						}
 																					],
 																					"type": {
@@ -4301,7 +4301,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 78,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L78"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L78"
 																						}
 																					],
 																					"type": {
@@ -4341,7 +4341,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 88,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L88"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L88"
 																						}
 																					],
 																					"type": {
@@ -4360,7 +4360,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 87,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L87"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L87"
 																						}
 																					],
 																					"type": {
@@ -4379,7 +4379,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 86,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L86"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L86"
 																						}
 																					],
 																					"type": {
@@ -4420,7 +4420,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 97,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L97"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L97"
 																						}
 																					],
 																					"type": {
@@ -4439,7 +4439,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 96,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L96"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L96"
 																						}
 																					],
 																					"type": {
@@ -4479,7 +4479,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 105,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L105"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L105"
 																						}
 																					],
 																					"type": {
@@ -4498,7 +4498,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 106,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L106"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L106"
 																						}
 																					],
 																					"type": {
@@ -4517,7 +4517,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 104,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L104"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L104"
 																						}
 																					],
 																					"type": {
@@ -4558,7 +4558,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 116,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L116"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L116"
 																						}
 																					],
 																					"type": {
@@ -4577,7 +4577,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 115,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L115"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L115"
 																						}
 																					],
 																					"type": {
@@ -4596,7 +4596,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 114,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L114"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L114"
 																						}
 																					],
 																					"type": {
@@ -4639,7 +4639,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 127,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L127"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L127"
 																						}
 																					],
 																					"type": {
@@ -4658,7 +4658,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 125,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L125"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L125"
 																						}
 																					],
 																					"type": {
@@ -4677,7 +4677,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 126,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L126"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L126"
 																						}
 																					],
 																					"type": {
@@ -4696,7 +4696,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 124,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L124"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L124"
 																						}
 																					],
 																					"type": {
@@ -4738,7 +4738,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 138,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L138"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L138"
 																						}
 																					],
 																					"type": {
@@ -4757,7 +4757,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 137,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L137"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L137"
 																						}
 																					],
 																					"type": {
@@ -4776,7 +4776,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 136,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L136"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L136"
 																						}
 																					],
 																					"type": {
@@ -4819,7 +4819,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 148,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L148"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L148"
 																						}
 																					],
 																					"type": {
@@ -4838,7 +4838,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 147,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L147"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L147"
 																						}
 																					],
 																					"type": {
@@ -4857,7 +4857,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 146,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L146"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L146"
 																						}
 																					],
 																					"type": {
@@ -4898,7 +4898,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 158,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L158"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L158"
 																						}
 																					],
 																					"type": {
@@ -4917,7 +4917,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 157,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L157"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L157"
 																						}
 																					],
 																					"type": {
@@ -4936,7 +4936,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 156,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L156"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L156"
 																						}
 																					],
 																					"type": {
@@ -4977,7 +4977,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 167,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L167"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L167"
 																						}
 																					],
 																					"type": {
@@ -4998,7 +4998,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 169,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L169"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L169"
 																						}
 																					],
 																					"type": {
@@ -5017,7 +5017,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 166,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L166"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L166"
 																						}
 																					],
 																					"type": {
@@ -5036,7 +5036,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 168,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L168"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L168"
 																						}
 																					],
 																					"type": {
@@ -5078,7 +5078,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 180,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L180"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L180"
 																						}
 																					],
 																					"type": {
@@ -5097,7 +5097,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 178,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L178"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L178"
 																						}
 																					],
 																					"type": {
@@ -5116,7 +5116,7 @@
 																							"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																							"line": 179,
 																							"character": 2,
-																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L179"
+																							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L179"
 																						}
 																					],
 																					"type": {
@@ -5169,7 +5169,7 @@
 							"fileName": "packages/agent-sdk/src/agent.ts",
 							"line": 91,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L91"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L91"
 						}
 					],
 					"signatures": [
@@ -5184,7 +5184,7 @@
 									"fileName": "packages/agent-sdk/src/agent.ts",
 									"line": 91,
 									"character": 2,
-									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L91"
+									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L91"
 								}
 							],
 							"type": {
@@ -5215,7 +5215,7 @@
 							"fileName": "packages/agent-sdk/src/agent.ts",
 							"line": 191,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L191"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L191"
 						}
 					],
 					"signatures": [
@@ -5271,7 +5271,7 @@
 									"fileName": "packages/agent-sdk/src/agent.ts",
 									"line": 191,
 									"character": 2,
-									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L191"
+									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L191"
 								}
 							],
 							"parameters": [
@@ -5383,7 +5383,7 @@
 					"fileName": "packages/agent-sdk/src/agent.ts",
 					"line": 44,
 					"character": 13,
-					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/agent.ts#L44"
+					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/agent.ts#L44"
 				}
 			],
 			"implementedTypes": [
@@ -5435,7 +5435,7 @@
 							"fileName": "packages/agent-sdk/src/errors.ts",
 							"line": 6,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L6"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L6"
 						}
 					],
 					"signatures": [
@@ -5450,7 +5450,7 @@
 									"fileName": "packages/agent-sdk/src/errors.ts",
 									"line": 6,
 									"character": 2,
-									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L6"
+									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L6"
 								}
 							],
 							"parameters": [
@@ -5552,7 +5552,7 @@
 							"fileName": "packages/agent-sdk/src/errors.ts",
 							"line": 8,
 							"character": 20,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L8"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L8"
 						}
 					],
 					"type": {
@@ -5654,7 +5654,7 @@
 							"fileName": "packages/agent-sdk/src/errors.ts",
 							"line": 9,
 							"character": 20,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L9"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L9"
 						}
 					],
 					"type": {
@@ -6041,7 +6041,7 @@
 					"fileName": "packages/agent-sdk/src/errors.ts",
 					"line": 5,
 					"character": 13,
-					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L5"
+					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L5"
 				}
 			],
 			"extendedTypes": [
@@ -6110,7 +6110,7 @@
 							"fileName": "packages/agent-sdk/src/errors.ts",
 							"line": 20,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L20"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L20"
 						}
 					],
 					"signatures": [
@@ -6125,7 +6125,7 @@
 									"fileName": "packages/agent-sdk/src/errors.ts",
 									"line": 20,
 									"character": 2,
-									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L20"
+									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L20"
 								}
 							],
 							"parameters": [
@@ -6213,7 +6213,7 @@
 							"fileName": "packages/agent-sdk/src/errors.ts",
 							"line": 8,
 							"character": 20,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L8"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L8"
 						}
 					],
 					"type": {
@@ -6321,7 +6321,7 @@
 							"fileName": "packages/agent-sdk/src/errors.ts",
 							"line": 9,
 							"character": 20,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L9"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L9"
 						}
 					],
 					"type": {
@@ -6348,7 +6348,7 @@
 							"fileName": "packages/agent-sdk/src/errors.ts",
 							"line": 22,
 							"character": 20,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L22"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L22"
 						}
 					],
 					"type": {
@@ -6736,7 +6736,7 @@
 					"fileName": "packages/agent-sdk/src/errors.ts",
 					"line": 19,
 					"character": 13,
-					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L19"
+					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L19"
 				}
 			],
 			"extendedTypes": [
@@ -6782,7 +6782,7 @@
 							"fileName": "packages/agent-sdk/src/errors.ts",
 							"line": 53,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L53"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L53"
 						}
 					],
 					"signatures": [
@@ -6797,7 +6797,7 @@
 									"fileName": "packages/agent-sdk/src/errors.ts",
 									"line": 53,
 									"character": 2,
-									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L53"
+									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L53"
 								}
 							],
 							"parameters": [
@@ -6887,7 +6887,7 @@
 							"fileName": "packages/agent-sdk/src/errors.ts",
 							"line": 8,
 							"character": 20,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L8"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L8"
 						}
 					],
 					"type": {
@@ -6995,7 +6995,7 @@
 							"fileName": "packages/agent-sdk/src/errors.ts",
 							"line": 9,
 							"character": 20,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L9"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L9"
 						}
 					],
 					"type": {
@@ -7387,7 +7387,7 @@
 					"fileName": "packages/agent-sdk/src/errors.ts",
 					"line": 52,
 					"character": 13,
-					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L52"
+					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L52"
 				}
 			],
 			"extendedTypes": [
@@ -7433,7 +7433,7 @@
 							"fileName": "packages/agent-sdk/src/errors.ts",
 							"line": 33,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L33"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L33"
 						}
 					],
 					"signatures": [
@@ -7448,7 +7448,7 @@
 									"fileName": "packages/agent-sdk/src/errors.ts",
 									"line": 33,
 									"character": 2,
-									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L33"
+									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L33"
 								}
 							],
 							"parameters": [
@@ -7538,7 +7538,7 @@
 							"fileName": "packages/agent-sdk/src/errors.ts",
 							"line": 8,
 							"character": 20,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L8"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L8"
 						}
 					],
 					"type": {
@@ -7646,7 +7646,7 @@
 							"fileName": "packages/agent-sdk/src/errors.ts",
 							"line": 9,
 							"character": 20,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L9"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L9"
 						}
 					],
 					"type": {
@@ -8038,7 +8038,7 @@
 					"fileName": "packages/agent-sdk/src/errors.ts",
 					"line": 32,
 					"character": 13,
-					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L32"
+					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L32"
 				}
 			],
 			"extendedTypes": [
@@ -8084,7 +8084,7 @@
 							"fileName": "packages/agent-sdk/src/errors.ts",
 							"line": 63,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L63"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L63"
 						}
 					],
 					"signatures": [
@@ -8099,7 +8099,7 @@
 									"fileName": "packages/agent-sdk/src/errors.ts",
 									"line": 63,
 									"character": 2,
-									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L63"
+									"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L63"
 								}
 							],
 							"parameters": [
@@ -8189,7 +8189,7 @@
 							"fileName": "packages/agent-sdk/src/errors.ts",
 							"line": 8,
 							"character": 20,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L8"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L8"
 						}
 					],
 					"type": {
@@ -8297,7 +8297,7 @@
 							"fileName": "packages/agent-sdk/src/errors.ts",
 							"line": 9,
 							"character": 20,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L9"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L9"
 						}
 					],
 					"type": {
@@ -8689,7 +8689,7 @@
 					"fileName": "packages/agent-sdk/src/errors.ts",
 					"line": 62,
 					"character": 13,
-					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/errors.ts#L62"
+					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/errors.ts#L62"
 				}
 			],
 			"extendedTypes": [
@@ -8753,7 +8753,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 44,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L44"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L44"
 						}
 					],
 					"type": {
@@ -8817,7 +8817,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 66,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L66"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L66"
 						}
 					],
 					"type": {
@@ -8846,7 +8846,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 46,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L46"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L46"
 						}
 					],
 					"type": {
@@ -8886,7 +8886,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 54,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L54"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L54"
 						}
 					],
 					"type": {
@@ -8934,7 +8934,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 60,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L60"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L60"
 						}
 					],
 					"type": {
@@ -8963,7 +8963,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 48,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L48"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L48"
 						}
 					],
 					"type": {
@@ -8990,7 +8990,7 @@
 					"fileName": "packages/agent-sdk/src/types.ts",
 					"line": 42,
 					"character": 17,
-					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L42"
+					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L42"
 				}
 			]
 		},
@@ -9036,7 +9036,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 125,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L125"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L125"
 						}
 					],
 					"type": {
@@ -9068,7 +9068,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 123,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L123"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L123"
 						}
 					],
 					"type": {
@@ -9091,7 +9091,7 @@
 					"fileName": "packages/agent-sdk/src/types.ts",
 					"line": 121,
 					"character": 17,
-					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L121"
+					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L121"
 				}
 			]
 		},
@@ -9139,7 +9139,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 133,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L133"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L133"
 						}
 					],
 					"type": {
@@ -9168,7 +9168,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 135,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L135"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L135"
 						}
 					],
 					"type": {
@@ -9196,7 +9196,7 @@
 					"fileName": "packages/agent-sdk/src/types.ts",
 					"line": 131,
 					"character": 17,
-					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L131"
+					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L131"
 				}
 			]
 		},
@@ -9239,7 +9239,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 17,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L17"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L17"
 						}
 					],
 					"type": {
@@ -9264,7 +9264,7 @@
 											"fileName": "packages/shared/src/schemas/browser-context.ts",
 											"line": 46,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L46"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L46"
 										}
 									],
 									"type": {
@@ -9287,7 +9287,7 @@
 															"fileName": "packages/shared/src/schemas/browser-context.ts",
 															"line": 16,
 															"character": 2,
-															"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L16"
+															"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L16"
 														}
 													],
 													"type": {
@@ -9308,7 +9308,7 @@
 															"fileName": "packages/shared/src/schemas/browser-context.ts",
 															"line": 18,
 															"character": 2,
-															"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L18"
+															"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L18"
 														}
 													],
 													"type": {
@@ -9329,7 +9329,7 @@
 															"fileName": "packages/shared/src/schemas/browser-context.ts",
 															"line": 17,
 															"character": 2,
-															"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L17"
+															"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L17"
 														}
 													],
 													"type": {
@@ -9364,7 +9364,7 @@
 											"fileName": "packages/shared/src/schemas/browser-context.ts",
 											"line": 50,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L50"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L50"
 										}
 									],
 									"type": {
@@ -9389,7 +9389,7 @@
 																"fileName": "packages/shared/src/schemas/browser-context.ts",
 																"line": 31,
 																"character": 2,
-																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L31"
+																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L31"
 															}
 														],
 														"type": {
@@ -9408,7 +9408,7 @@
 																"fileName": "packages/shared/src/schemas/browser-context.ts",
 																"line": 32,
 																"character": 2,
-																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L32"
+																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L32"
 															}
 														],
 														"type": {
@@ -9443,7 +9443,7 @@
 											"fileName": "packages/shared/src/schemas/browser-context.ts",
 											"line": 49,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L49"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L49"
 										}
 									],
 									"type": {
@@ -9467,7 +9467,7 @@
 											"fileName": "packages/shared/src/schemas/browser-context.ts",
 											"line": 47,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L47"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L47"
 										}
 									],
 									"type": {
@@ -9492,7 +9492,7 @@
 																"fileName": "packages/shared/src/schemas/browser-context.ts",
 																"line": 16,
 																"character": 2,
-																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L16"
+																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L16"
 															}
 														],
 														"type": {
@@ -9513,7 +9513,7 @@
 																"fileName": "packages/shared/src/schemas/browser-context.ts",
 																"line": 18,
 																"character": 2,
-																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L18"
+																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L18"
 															}
 														],
 														"type": {
@@ -9534,7 +9534,7 @@
 																"fileName": "packages/shared/src/schemas/browser-context.ts",
 																"line": 17,
 																"character": 2,
-																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L17"
+																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L17"
 															}
 														],
 														"type": {
@@ -9570,7 +9570,7 @@
 											"fileName": "packages/shared/src/schemas/browser-context.ts",
 											"line": 48,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L48"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L48"
 										}
 									],
 									"type": {
@@ -9595,7 +9595,7 @@
 																"fileName": "packages/shared/src/schemas/browser-context.ts",
 																"line": 16,
 																"character": 2,
-																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L16"
+																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L16"
 															}
 														],
 														"type": {
@@ -9616,7 +9616,7 @@
 																"fileName": "packages/shared/src/schemas/browser-context.ts",
 																"line": 18,
 																"character": 2,
-																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L18"
+																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L18"
 															}
 														],
 														"type": {
@@ -9637,7 +9637,7 @@
 																"fileName": "packages/shared/src/schemas/browser-context.ts",
 																"line": 17,
 																"character": 2,
-																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L17"
+																"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L17"
 															}
 														],
 														"type": {
@@ -9673,7 +9673,7 @@
 											"fileName": "packages/shared/src/schemas/browser-context.ts",
 											"line": 45,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L45"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L45"
 										}
 									],
 									"type": {
@@ -9711,7 +9711,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 15,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L15"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L15"
 						}
 					],
 					"type": {
@@ -9736,7 +9736,7 @@
 											"fileName": "packages/shared/src/schemas/llm.ts",
 											"line": 70,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/llm.ts#L70"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/llm.ts#L70"
 										}
 									],
 									"type": {
@@ -9757,7 +9757,7 @@
 											"fileName": "packages/shared/src/schemas/llm.ts",
 											"line": 66,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/llm.ts#L66"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/llm.ts#L66"
 										}
 									],
 									"type": {
@@ -9778,7 +9778,7 @@
 											"fileName": "packages/shared/src/schemas/llm.ts",
 											"line": 67,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/llm.ts#L67"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/llm.ts#L67"
 										}
 									],
 									"type": {
@@ -9799,7 +9799,7 @@
 											"fileName": "packages/shared/src/schemas/llm.ts",
 											"line": 65,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/llm.ts#L65"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/llm.ts#L65"
 										}
 									],
 									"type": {
@@ -9818,7 +9818,7 @@
 											"fileName": "packages/shared/src/schemas/llm.ts",
 											"line": 64,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/llm.ts#L64"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/llm.ts#L64"
 										}
 									],
 									"type": {
@@ -9880,7 +9880,7 @@
 											"fileName": "packages/shared/src/schemas/llm.ts",
 											"line": 69,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/llm.ts#L69"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/llm.ts#L69"
 										}
 									],
 									"type": {
@@ -9901,7 +9901,7 @@
 											"fileName": "packages/shared/src/schemas/llm.ts",
 											"line": 68,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/llm.ts#L68"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/llm.ts#L68"
 										}
 									],
 									"type": {
@@ -9922,7 +9922,7 @@
 											"fileName": "packages/shared/src/schemas/llm.ts",
 											"line": 71,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/llm.ts#L71"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/llm.ts#L71"
 										}
 									],
 									"type": {
@@ -9943,7 +9943,7 @@
 											"fileName": "packages/shared/src/schemas/llm.ts",
 											"line": 72,
 											"character": 2,
-											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/llm.ts#L72"
+											"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/llm.ts#L72"
 										}
 									],
 									"type": {
@@ -9992,7 +9992,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 19,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L19"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L19"
 						}
 					],
 					"type": {
@@ -10042,7 +10042,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 15,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L15"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L15"
 																		}
 																	],
 																	"type": {
@@ -10061,7 +10061,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 14,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L14"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L14"
 																		}
 																	],
 																	"type": {
@@ -10101,7 +10101,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 22,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L22"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L22"
 																		}
 																	],
 																	"type": {
@@ -10140,7 +10140,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 26,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L26"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L26"
 																		}
 																	],
 																	"type": {
@@ -10179,7 +10179,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 31,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L31"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L31"
 																		}
 																	],
 																	"type": {
@@ -10200,7 +10200,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 32,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L32"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L32"
 																		}
 																	],
 																	"type": {
@@ -10219,7 +10219,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 30,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L30"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L30"
 																		}
 																	],
 																	"type": {
@@ -10260,7 +10260,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 40,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L40"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L40"
 																		}
 																	],
 																	"type": {
@@ -10299,7 +10299,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 45,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L45"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L45"
 																		}
 																	],
 																	"type": {
@@ -10318,7 +10318,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 44,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L44"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L44"
 																		}
 																	],
 																	"type": {
@@ -10358,7 +10358,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 53,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L53"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L53"
 																		}
 																	],
 																	"type": {
@@ -10377,7 +10377,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 52,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L52"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L52"
 																		}
 																	],
 																	"type": {
@@ -10417,7 +10417,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 62,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L62"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L62"
 																		}
 																	],
 																	"type": {
@@ -10436,7 +10436,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 61,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L61"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L61"
 																		}
 																	],
 																	"type": {
@@ -10455,7 +10455,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 60,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L60"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L60"
 																		}
 																	],
 																	"type": {
@@ -10496,7 +10496,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 71,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L71"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L71"
 																		}
 																	],
 																	"type": {
@@ -10515,7 +10515,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 70,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L70"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L70"
 																		}
 																	],
 																	"type": {
@@ -10555,7 +10555,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 79,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L79"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L79"
 																		}
 																	],
 																	"type": {
@@ -10574,7 +10574,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 78,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L78"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L78"
 																		}
 																	],
 																	"type": {
@@ -10614,7 +10614,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 88,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L88"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L88"
 																		}
 																	],
 																	"type": {
@@ -10633,7 +10633,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 87,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L87"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L87"
 																		}
 																	],
 																	"type": {
@@ -10652,7 +10652,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 86,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L86"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L86"
 																		}
 																	],
 																	"type": {
@@ -10693,7 +10693,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 97,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L97"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L97"
 																		}
 																	],
 																	"type": {
@@ -10712,7 +10712,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 96,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L96"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L96"
 																		}
 																	],
 																	"type": {
@@ -10752,7 +10752,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 105,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L105"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L105"
 																		}
 																	],
 																	"type": {
@@ -10771,7 +10771,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 106,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L106"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L106"
 																		}
 																	],
 																	"type": {
@@ -10790,7 +10790,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 104,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L104"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L104"
 																		}
 																	],
 																	"type": {
@@ -10831,7 +10831,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 116,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L116"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L116"
 																		}
 																	],
 																	"type": {
@@ -10850,7 +10850,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 115,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L115"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L115"
 																		}
 																	],
 																	"type": {
@@ -10869,7 +10869,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 114,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L114"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L114"
 																		}
 																	],
 																	"type": {
@@ -10912,7 +10912,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 127,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L127"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L127"
 																		}
 																	],
 																	"type": {
@@ -10931,7 +10931,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 125,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L125"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L125"
 																		}
 																	],
 																	"type": {
@@ -10950,7 +10950,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 126,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L126"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L126"
 																		}
 																	],
 																	"type": {
@@ -10969,7 +10969,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 124,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L124"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L124"
 																		}
 																	],
 																	"type": {
@@ -11011,7 +11011,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 138,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L138"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L138"
 																		}
 																	],
 																	"type": {
@@ -11030,7 +11030,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 137,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L137"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L137"
 																		}
 																	],
 																	"type": {
@@ -11049,7 +11049,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 136,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L136"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L136"
 																		}
 																	],
 																	"type": {
@@ -11092,7 +11092,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 148,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L148"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L148"
 																		}
 																	],
 																	"type": {
@@ -11111,7 +11111,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 147,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L147"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L147"
 																		}
 																	],
 																	"type": {
@@ -11130,7 +11130,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 146,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L146"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L146"
 																		}
 																	],
 																	"type": {
@@ -11171,7 +11171,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 158,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L158"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L158"
 																		}
 																	],
 																	"type": {
@@ -11190,7 +11190,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 157,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L157"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L157"
 																		}
 																	],
 																	"type": {
@@ -11209,7 +11209,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 156,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L156"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L156"
 																		}
 																	],
 																	"type": {
@@ -11250,7 +11250,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 167,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L167"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L167"
 																		}
 																	],
 																	"type": {
@@ -11271,7 +11271,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 169,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L169"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L169"
 																		}
 																	],
 																	"type": {
@@ -11290,7 +11290,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 166,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L166"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L166"
 																		}
 																	],
 																	"type": {
@@ -11309,7 +11309,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 168,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L168"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L168"
 																		}
 																	],
 																	"type": {
@@ -11351,7 +11351,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 180,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L180"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L180"
 																		}
 																	],
 																	"type": {
@@ -11370,7 +11370,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 178,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L178"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L178"
 																		}
 																	],
 																	"type": {
@@ -11389,7 +11389,7 @@
 																			"fileName": "packages/shared/src/schemas/ui-stream.ts",
 																			"line": 179,
 																			"character": 2,
-																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L179"
+																			"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L179"
 																		}
 																	],
 																	"type": {
@@ -11436,7 +11436,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 20,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L20"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L20"
 						}
 					],
 					"type": {
@@ -11482,7 +11482,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 26,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L26"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L26"
 						}
 					],
 					"type": {
@@ -11501,7 +11501,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 14,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L14"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L14"
 						}
 					],
 					"type": {
@@ -11528,7 +11528,7 @@
 					"fileName": "packages/agent-sdk/src/types.ts",
 					"line": 13,
 					"character": 17,
-					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L13"
+					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L13"
 				}
 			]
 		},
@@ -11576,7 +11576,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 76,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L76"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L76"
 						}
 					],
 					"type": {
@@ -11619,7 +11619,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 74,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L74"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L74"
 						}
 					],
 					"type": {
@@ -11658,7 +11658,7 @@
 					"fileName": "packages/agent-sdk/src/types.ts",
 					"line": 72,
 					"character": 17,
-					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L72"
+					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L72"
 				}
 			],
 			"typeParameters": [
@@ -11713,7 +11713,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 157,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L157"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L157"
 						}
 					],
 					"type": {
@@ -11739,7 +11739,7 @@
 					"fileName": "packages/agent-sdk/src/types.ts",
 					"line": 155,
 					"character": 17,
-					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L155"
+					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L155"
 				}
 			],
 			"typeParameters": [
@@ -11796,7 +11796,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 34,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L34"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L34"
 						}
 					],
 					"type": {
@@ -11825,7 +11825,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 36,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L36"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L36"
 						}
 					],
 					"type": {
@@ -11848,7 +11848,7 @@
 					"fileName": "packages/agent-sdk/src/types.ts",
 					"line": 32,
 					"character": 17,
-					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L32"
+					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L32"
 				}
 			]
 		},
@@ -11894,7 +11894,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 115,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L115"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L115"
 						}
 					],
 					"type": {
@@ -11916,7 +11916,7 @@
 					"fileName": "packages/agent-sdk/src/types.ts",
 					"line": 113,
 					"character": 17,
-					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L113"
+					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L113"
 				}
 			]
 		},
@@ -11954,7 +11954,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 105,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L105"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L105"
 						}
 					],
 					"type": {
@@ -11983,7 +11983,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 107,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L107"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L107"
 						}
 					],
 					"type": {
@@ -12026,7 +12026,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 103,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L103"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L103"
 						}
 					],
 					"type": {
@@ -12052,7 +12052,7 @@
 					"fileName": "packages/agent-sdk/src/types.ts",
 					"line": 101,
 					"character": 17,
-					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L101"
+					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L101"
 				}
 			]
 		},
@@ -12090,7 +12090,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 145,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L145"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L145"
 						}
 					],
 					"type": {
@@ -12135,7 +12135,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 149,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L149"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L149"
 						}
 					],
 					"type": {
@@ -12162,7 +12162,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 143,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L143"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L143"
 						}
 					],
 					"type": {
@@ -12191,7 +12191,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 147,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L147"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L147"
 						}
 					],
 					"type": {
@@ -12216,7 +12216,7 @@
 					"fileName": "packages/agent-sdk/src/types.ts",
 					"line": 141,
 					"character": 17,
-					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L141"
+					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L141"
 				}
 			]
 		},
@@ -12264,7 +12264,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 84,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L84"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L84"
 						}
 					],
 					"type": {
@@ -12302,7 +12302,7 @@
 					"fileName": "packages/agent-sdk/src/types.ts",
 					"line": 82,
 					"character": 17,
-					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L82"
+					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L82"
 				}
 			]
 		},
@@ -12348,7 +12348,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 167,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L167"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L167"
 						}
 					],
 					"type": {
@@ -12375,7 +12375,7 @@
 							"fileName": "packages/agent-sdk/src/types.ts",
 							"line": 165,
 							"character": 2,
-							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L165"
+							"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L165"
 						}
 					],
 					"type": {
@@ -12398,7 +12398,7 @@
 					"fileName": "packages/agent-sdk/src/types.ts",
 					"line": 163,
 					"character": 17,
-					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L163"
+					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L163"
 				}
 			]
 		},
@@ -12413,7 +12413,7 @@
 					"fileName": "packages/shared/src/schemas/browser-context.ts",
 					"line": 60,
 					"character": 12,
-					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/browser-context.ts#L60"
+					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/browser-context.ts#L60"
 				}
 			],
 			"type": {
@@ -12455,7 +12455,7 @@
 					"fileName": "packages/shared/src/schemas/llm.ts",
 					"line": 87,
 					"character": 12,
-					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/llm.ts#L87"
+					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/llm.ts#L87"
 				}
 			],
 			"type": {
@@ -12497,7 +12497,7 @@
 					"fileName": "packages/shared/src/schemas/llm.ts",
 					"line": 57,
 					"character": 12,
-					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/llm.ts#L57"
+					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/llm.ts#L57"
 				}
 			],
 			"type": {
@@ -12547,7 +12547,7 @@
 					"fileName": "packages/agent-sdk/src/types.ts",
 					"line": 90,
 					"character": 12,
-					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/agent-sdk/src/types.ts#L90"
+					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/agent-sdk/src/types.ts#L90"
 				}
 			],
 			"type": {
@@ -12599,7 +12599,7 @@
 					"fileName": "packages/shared/src/schemas/ui-stream.ts",
 					"line": 242,
 					"character": 12,
-					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/66e229075cebd2dea0e5b76e8743e5304400c438/packages/shared/src/schemas/ui-stream.ts#L242"
+					"url": "https://github.com/Developer-Automation-System/BrowserOS-agent/blob/4e4086ca3beecf61f598a16599de90e73fc58ce1/packages/shared/src/schemas/ui-stream.ts#L242"
 				}
 			],
 			"type": {

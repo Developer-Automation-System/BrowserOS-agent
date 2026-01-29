@@ -95,22 +95,9 @@ function rotateLogIfNeeded(logPath: string): void {
 
 /**
  * Create pino transport configuration for console output.
- * Returns null for production (use sync stdout to avoid thread-stream issues with Bun compile).
+ * Returns null to use sync stdout (avoids thread-stream issues with Bun compile).
  */
 function createConsoleTransport(): pino.TransportSingleOptions | null {
-  if (isDev) {
-    return {
-      target: 'pino-pretty',
-      options: {
-        colorize: true,
-        translateTime: 'SYS:HH:MM:ss.l',
-        ignore: 'pid,hostname',
-      },
-    }
-  }
-
-  // Production: return null to use synchronous stdout logging.
-  // pino.transport() uses thread-stream which doesn't work with Bun compile.
   return null
 }
 

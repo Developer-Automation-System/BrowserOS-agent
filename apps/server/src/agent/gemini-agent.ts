@@ -227,13 +227,33 @@ export class GeminiAgent {
     browserContext?: BrowserContext,
   ): void {
     if (browserContext?.windowId && requestInfo.name.startsWith('browser_')) {
-      logger.debug('Injecting windowId into tool args', {
-        tool: requestInfo.name,
-        windowId: browserContext.windowId,
-      })
-      requestInfo.args = {
-        ...requestInfo.args,
-        windowId: browserContext.windowId,
+      const currentWindowId = requestInfo.args?.windowId as number | undefined
+      
+      // Always override windowId: 0 or undefined with the correct windowId from browserContext
+      // This ensures tools operate on the correct window for this BrowserOS instance
+      // when multiple instances are running concurrently (even on different servers/ports)
+      if (currentWindowId === 0 || currentWindowId === undefined) {
+        logger.debug('Overriding windowId from browserContext', {
+          tool: requestInfo.name,
+          oldWindowId: currentWindowId,
+          newWindowId: browserContext.windowId,
+        })
+        requestInfo.args = {
+          ...requestInfo.args,
+          windowId: browserContext.windowId,
+        }
+      } else {
+        // Even if LLM provided a non-zero windowId, still inject from browserContext
+        // to ensure it matches the current BrowserOS instance's window
+        logger.debug('Injecting windowId from browserContext', {
+          tool: requestInfo.name,
+          llmWindowId: currentWindowId,
+          contextWindowId: browserContext.windowId,
+        })
+        requestInfo.args = {
+          ...requestInfo.args,
+          windowId: browserContext.windowId,
+        }
       }
     }
   }

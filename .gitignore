@@ -6,3 +6,4 @@ apps/server/browseros.db-shm
 apps/agent/dist
 apps/server/.env.production
 apps/server/.env.development
+/dist/*

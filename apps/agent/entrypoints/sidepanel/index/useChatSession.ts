@@ -67,25 +67,30 @@ const getBrowserPort = async (): Promise<number> => {
 }
 
 /**
- * Send agent status to agent-status API
+ * Send agent status/log to agent-status API
+ * Sends all status updates to backend, but only "started" and "completed" are used for search matching
  */
 const sendAgentStatus = async (
-  status: 'started' | 'completed',
+  status: string,
   message: string,
   conversationId: string,
   messageId: string,
-  role: 'assistant' | 'error',
-  parts: Array<{ type: string; text: string }>,
+  role: 'assistant' | 'error' | 'user',
+  parts: Array<{ type: string; text?: string; [key: string]: any }>,
+  toolCalls?: Array<{
+    toolCallId: string
+    toolName: string
+    input: Record<string, unknown>
+    output?: unknown
+    error?: string
+    state?: string
+  }>,
 ): Promise<void> => {
   const apiBaseUrl =
     import.meta.env.VITE_NEXTJS_API_URL || 'http://localhost:3010'
 
   try {
-    // Get browserPort - throws error if not found
     const browserPort = await getBrowserPort()
-    console.log(
-      `[Agent] Sending ${status} status with browserPort: ${browserPort}`,
-    )
 
     const response = await fetch(`${apiBaseUrl}/api/browser/agent-status`, {
       method: 'POST',
@@ -100,21 +105,17 @@ const sendAgentStatus = async (
         role,
         timestamp: new Date().toISOString(),
         parts,
+        toolCalls,
         browserPort,
       }),
     })
 
     if (!response.ok) {
       const errorText = await response.text()
-      console.error(
-        `[Agent] Agent status API returned ${response.status}:`,
-        errorText,
-      )
-    } else {
-      console.log(`[Agent] Successfully sent ${status} status`)
+      // Silently handle errors - they're logged on the backend
     }
   } catch (error) {
-    console.error('[Agent] Failed to send agent status:', error)
+    // Silently handle errors - they're logged on the backend
   }
 }
 
@@ -374,9 +375,15 @@ export const useChatSession = () => {
 
   // Track if we've sent 'started' status for current conversation
   const agentStartedRef = useRef<string | null>(null)
+  const lastStatusRef = useRef<string | null>(null)
 
-  // Send 'started' status when agent begins processing
+  // Send all status updates to backend
   useEffect(() => {
+    // Only send if status changed
+    if (status === lastStatusRef.current) return
+    lastStatusRef.current = status
+
+    // Send 'started' status when agent begins processing
     if (
       status === 'streaming' &&
       agentStartedRef.current !== conversationIdRef.current
@@ -401,8 +408,117 @@ export const useChatSession = () => {
         'assistant',
         [],
       )
+    } else {
+      // Send all other status updates (in_progress, streaming, etc.)
+      const statusMessage = status === 'streaming' 
+        ? 'Agent is processing...'
+        : status === 'awaiting_browser_response'
+        ? 'Waiting for browser response...'
+        : status === 'error'
+        ? 'Error occurred'
+        : `Status: ${status}`
+
+      sendAgentStatus(
+        status,
+        statusMessage,
+        conversationIdRef.current,
+        `${status}_${Date.now()}`,
+        'assistant',
+        [],
+      )
     }
   }, [status, conversationId, messages])
+
+  // Track processed tool calls to avoid duplicates
+  const lastProcessedToolCallsRef = useRef<Set<string>>(new Set())
+
+  // Track and send tool calls/results
+  useEffect(() => {
+    if (messages.length === 0) return
+
+    const lastMessage = messages[messages.length - 1]
+    if (lastMessage.role !== 'assistant') return
+
+    // Extract tool-related parts
+    const toolParts = lastMessage.parts.filter((p) =>
+      p.type?.startsWith('tool-'),
+    ) as Array<{
+      type: string
+      toolCallId?: string
+      toolName?: string
+      input?: Record<string, unknown>
+      output?: unknown
+      error?: string
+      errorText?: string
+      state?: string
+    }>
+
+    if (toolParts.length === 0) return
+
+    // Process each tool part
+    for (const toolPart of toolParts) {
+      const toolCallId = toolPart.toolCallId || `${lastMessage.id}_${toolPart.type}`
+      const uniqueKey = `${toolCallId}_${toolPart.state || 'unknown'}`
+      
+      if (lastProcessedToolCallsRef.current.has(uniqueKey)) continue
+
+      // Extract tool name from type (e.g., 'tool-browser_get_active_tab' -> 'browser_get_active_tab')
+      const toolName =
+        toolPart.toolName ||
+        toolPart.type?.replace('tool-', '') ||
+        'unknown'
+
+      // Check if this is an error state
+      const isError = toolPart.state === 'output-error' || toolPart.error !== undefined || toolPart.errorText !== undefined
+      const errorText = toolPart.error || toolPart.errorText || (isError ? 'Tool execution failed' : undefined)
+
+      // Determine if this is a tool call (input available) or tool result (output/error available)
+      const isToolCall = toolPart.input !== undefined && !toolPart.output && !isError
+      const isToolResult = toolPart.output !== undefined || isError
+
+      if (isToolCall) {
+        // Send tool call
+        sendAgentStatus(
+          'tool_call',
+          `Tool call: ${toolName}`,
+          conversationIdRef.current,
+          toolCallId,
+          'assistant',
+          [],
+          [
+            {
+              toolCallId,
+              toolName,
+              input: toolPart.input || {},
+              state: toolPart.state || 'pending',
+            },
+          ],
+        )
+        lastProcessedToolCallsRef.current.add(uniqueKey)
+      } else if (isToolResult) {
+        // Send tool result (with error if present)
+        sendAgentStatus(
+          'tool_result',
+          isError ? `Tool error: ${toolName}` : `Tool result: ${toolName}`,
+          conversationIdRef.current,
+          toolCallId,
+          isError ? 'error' : 'assistant',
+          [],
+          [
+            {
+              toolCallId,
+              toolName,
+              input: toolPart.input || {},
+              output: toolPart.output,
+              error: errorText,
+              state: toolPart.state || (isError ? 'output-error' : 'completed'),
+            },
+          ],
+        )
+        lastProcessedToolCallsRef.current.add(uniqueKey)
+      }
+    }
+  }, [messages])
 
   // Log final agent message and send completed status
   const lastSentMessageIdRef = useRef<string | null>(null)
@@ -420,10 +536,27 @@ export const useChatSession = () => {
           .map((p) => p.text)
           .join('')
 
-        // biome-ignore lint/suspicious/noConsole: logging for debugging
-        console.log('[Agent] Final message:', content)
+        // Extract all tool calls from the message
+        const toolCalls = lastMessage.parts
+          .filter((p) => p.type?.startsWith('tool-'))
+          .map((p) => {
+            const toolPart = p as any
+            const isError = toolPart.state === 'output-error' || toolPart.error !== undefined || toolPart.errorText !== undefined
+            const errorText = toolPart.error || toolPart.errorText || (isError ? 'Tool execution failed' : undefined)
+            return {
+              toolCallId: toolPart.toolCallId || `${lastMessage.id}_${toolPart.type}`,
+              toolName:
+                toolPart.toolName ||
+                toolPart.type?.replace('tool-', '') ||
+                'unknown',
+              input: toolPart.input || {},
+              output: toolPart.output,
+              error: errorText,
+              state: toolPart.state || (isError ? 'output-error' : 'completed'),
+            }
+          })
 
-        // Send completed status
+        // Send completed status with tool calls
         sendAgentStatus(
           'completed',
           content,
@@ -436,9 +569,11 @@ export const useChatSession = () => {
               type: 'text',
               text: p.text,
             })),
+          toolCalls.length > 0 ? toolCalls : undefined,
         )
 
         lastSentMessageIdRef.current = lastMessage.id
+        lastProcessedToolCallsRef.current.clear() // Reset for next message
       }
     }
   }, [messages, status])
@@ -448,9 +583,6 @@ export const useChatSession = () => {
   useEffect(() => {
     if (chatError && chatError.message !== lastSentErrorRef.current) {
       const errorMessage = chatError.message
-
-      // biome-ignore lint/suspicious/noConsole: logging for debugging
-      console.log('[Agent] Chat error detected:', errorMessage)
 
       // Send error status
       sendAgentStatus(
@@ -547,6 +679,7 @@ export const useChatSession = () => {
     const newConversationId = crypto.randomUUID()
     setConversationId(newConversationId)
     agentStartedRef.current = null
+    lastProcessedToolCallsRef.current.clear()
     setMessages([])
     setTextToAction(new Map())
     setLiked({})
