@@ -25,7 +25,11 @@ import { identity } from './lib/identity'
 import { logger } from './lib/logger'
 import { metrics } from './lib/metrics'
 import { MutexPool } from './lib/mutex'
-import { bindPortWithRetry, PortBindError } from './lib/port-binding'
+import {
+  bindPortWithRetry,
+  isPortInUse,
+  PortBindError,
+} from './lib/port-binding'
 import { fetchDailyRateLimit } from './lib/rate-limiter/fetch-config'
 import { RateLimiter } from './lib/rate-limiter/rate-limiter'
 import { Sentry } from './lib/sentry'
@@ -189,6 +193,15 @@ export class Application {
     controllerContext: ControllerContext
   }> {
     const port = this.config.extensionPort
+
+    // Check if port is in use before attempting to start
+    if (isPortInUse(port)) {
+      const error = new Error(
+        `Port ${port} is already in use. Is port ${port} in use?`,
+      )
+      throw error
+    }
+
     logger.info(`Controller server starting on ws://127.0.0.1:${port}`)
 
     return bindPortWithRetry(port, async () => {

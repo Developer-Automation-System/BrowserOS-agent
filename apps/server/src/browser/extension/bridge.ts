@@ -45,13 +45,13 @@ export class ControllerBridge {
       host: '127.0.0.1',
     })
 
-    this.wss.on('listening', () => {
-      this.logger.info(`WebSocket server listening on ws://127.0.0.1:${port}`)
-    })
+    // this.wss.on('listening', () => {
+    //   this.logger.info(`WebSocket server listening on ws://127.0.0.1:${port}`)
+    // })
 
     this.wss.on('connection', (ws: WebSocket) => {
       const clientId = this.registerClient(ws)
-      this.logger.info('Extension connected', { clientId })
+      // this.logger.info('Extension connected', { clientId })
 
       ws.on('message', (data: Buffer) => {
         try {
@@ -94,7 +94,7 @@ export class ControllerBridge {
       })
 
       ws.on('close', () => {
-        this.logger.info('Extension disconnected', { clientId })
+        // this.logger.info('Extension disconnected', { clientId })
         this.handleClientDisconnect(clientId)
       })
 
@@ -229,7 +229,7 @@ export class ControllerBridge {
       this.primaryClientId = null
 
       this.wss.close(() => {
-        this.logger.info('WebSocket server closed')
+        // this.logger.info('WebSocket server closed')
         resolve()
       })
     })
@@ -241,12 +241,12 @@ export class ControllerBridge {
 
     if (!this.primaryClientId) {
       this.primaryClientId = clientId
-      this.logger.info('Primary controller assigned', { clientId })
-    } else {
-      this.logger.info('Controller connected in standby mode', {
-        clientId,
-        primaryClientId: this.primaryClientId,
-      })
+      //   this.logger.info('Primary controller assigned', { clientId })
+      // } else {
+      //   this.logger.info('Controller connected in standby mode', {
+      //     clientId,
+      //     primaryClientId: this.primaryClientId,
+      //   })
     }
 
     return clientId
@@ -262,9 +262,9 @@ export class ControllerBridge {
         this.windowOwnership.delete(windowId)
       }
     }
-    this.logger.debug('Cleaned up window ownership for disconnected client', {
-      clientId,
-    })
+    // this.logger.debug('Cleaned up window ownership for disconnected client', {
+    //   clientId,
+    // })
 
     if (wasPrimary) {
       this.primaryClientId = null
@@ -282,14 +282,14 @@ export class ControllerBridge {
   private promoteNextPrimary(): void {
     const nextEntry = this.clients.keys().next()
     if (nextEntry.done) {
-      this.logger.warn('No controller connections available to promote')
+      // this.logger.warn('No controller connections available to promote')
       return
     }
 
     this.primaryClientId = nextEntry.value
-    this.logger.info('Promoted controller to primary', {
-      clientId: this.primaryClientId,
-    })
+    // this.logger.info('Promoted controller to primary', {
+    //   clientId: this.primaryClientId,
+    // })
   }
 
   private handleFocusEvent(clientId: string, windowId?: number): void {
@@ -308,11 +308,11 @@ export class ControllerBridge {
 
     const previousPrimary = this.primaryClientId
     this.primaryClientId = clientId
-    this.logger.info('Primary controller reassigned due to focus event', {
-      clientId,
-      previousPrimary,
-      windowId,
-    })
+    // this.logger.info('Primary controller reassigned due to focus event', {
+    //   clientId,
+    //   previousPrimary,
+    //   windowId,
+    // })
   }
 
   private handleRegisterWindows(clientId: string, windowIds: number[]): void {
@@ -325,11 +325,11 @@ export class ControllerBridge {
       this.windowOwnership.set(windowId, clientId)
     }
 
-    this.logger.info('Registered windows for client', {
-      clientId,
-      windowCount: windowIds.length,
-      windowIds,
-    })
+    // this.logger.info('Registered windows for client', {
+    //   clientId,
+    //   windowCount: windowIds.length,
+    //   windowIds,
+    // })
   }
 
   private handleWindowCreated(clientId: string, windowId: number): void {
@@ -339,7 +339,7 @@ export class ControllerBridge {
     }
 
     this.windowOwnership.set(windowId, clientId)
-    this.logger.info('Window created and registered', { clientId, windowId })
+    // this.logger.info('Window created and registered', { clientId, windowId })
   }
 
   private handleWindowRemoved(clientId: string, windowId: number): void {

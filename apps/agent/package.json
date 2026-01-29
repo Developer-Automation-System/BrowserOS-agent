@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "bun --env-file=.env.development wxt",
-    "build": "wxt build",
+    "build": "bun --env-file=.env.production wxt build",
     "zip": "wxt zip",
     "compile": "tsc --noEmit",
     "postinstall": "wxt prepare",

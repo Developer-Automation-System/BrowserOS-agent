@@ -6,6 +6,7 @@
  * Port binding utilities with retry logic for handling TIME_WAIT states.
  */
 
+import { execSync } from 'node:child_process'
 import { TIMEOUTS } from '@browseros/shared/constants/timeouts'
 import { logger } from './logger'
 
@@ -32,6 +33,23 @@ function isPortInUseError(error: unknown): boolean {
 
 function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms))
+}
+
+/**
+ * Checks if a port is in use using lsof
+ * @param port - The port to check
+ * @returns true if port is in use, false otherwise
+ */
+export function isPortInUse(port: number): boolean {
+  try {
+    const result = execSync(`lsof -ti :${port}`, {
+      encoding: 'utf-8',
+      stdio: ['ignore', 'pipe', 'ignore'],
+    }).trim()
+    return result.length > 0
+  } catch {
+    return false
+  }
 }
 
 /**

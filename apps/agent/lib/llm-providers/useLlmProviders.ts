@@ -53,6 +53,15 @@ export function useLlmProviders(): UseLlmProvidersReturn {
         if (!loadedProviders || loadedProviders.length === 0) {
           loadedProviders = createDefaultProvidersConfig()
           await providersStorage.setValue(loadedProviders)
+
+          // If OpenAI provider was auto-configured, set it as default
+          const openaiProvider = loadedProviders.find(
+            (p) => p.id === 'openai-default',
+          )
+          if (openaiProvider) {
+            loadedDefaultId = 'openai-default'
+            await defaultProviderIdStorage.setValue(loadedDefaultId)
+          }
         }
 
         if (!loadedDefaultId) {

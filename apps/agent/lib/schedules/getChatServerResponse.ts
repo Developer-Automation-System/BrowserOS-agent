@@ -147,6 +147,9 @@ export async function getChatServerResponse(
     throw new Error(parsed.error)
   }
 
+  // biome-ignore lint/suspicious/noConsole: logging for debugging
+  console.log('[Agent] Final message:', parsed.fullText)
+
   return {
     text: parsed.fullText,
     conversationId,

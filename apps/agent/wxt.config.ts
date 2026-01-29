@@ -60,10 +60,13 @@ export default defineConfig({
       'https://suggest.yandex.com/*',
     ],
   },
-  vite: () => ({
+  vite: (viteEnv) => ({
     build: {
       sourcemap: 'hidden',
     },
+    // Ensure Vite loads .env.production in production mode
+    // Vite automatically loads .env.production when mode === 'production'
+    mode: viteEnv.command === 'build' ? 'production' : 'development',
     plugins: [
       tailwindcss(),
       sentryVitePlugin({

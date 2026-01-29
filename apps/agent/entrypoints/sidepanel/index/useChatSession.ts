@@ -36,6 +36,88 @@ const getLastMessageText = (messages: UIMessage[]) => {
     .join('')
 }
 
+/**
+ * Get browserPort from chrome.storage - throws error if not found
+ */
+const getBrowserPort = async (): Promise<number> => {
+  if (
+    typeof chrome === 'undefined' ||
+    !chrome.storage ||
+    !chrome.storage.local
+  ) {
+    throw new Error('Chrome storage API not available')
+  }
+
+  return new Promise((resolve, reject) => {
+    chrome.storage.local.get('browseros_cdp_port', (result) => {
+      if (result?.browseros_cdp_port) {
+        const port = parseInt(String(result.browseros_cdp_port), 10)
+        if (!isNaN(port) && port > 0) {
+          resolve(port)
+          return
+        }
+      }
+      reject(
+        new Error(
+          'BrowserPort not found in chrome.storage. Make sure BrowserOS is started and open-new-tab.js has run.',
+        ),
+      )
+    })
+  })
+}
+
+/**
+ * Send agent status to agent-status API
+ */
+const sendAgentStatus = async (
+  status: 'started' | 'completed',
+  message: string,
+  conversationId: string,
+  messageId: string,
+  role: 'assistant' | 'error',
+  parts: Array<{ type: string; text: string }>,
+): Promise<void> => {
+  const apiBaseUrl =
+    import.meta.env.VITE_NEXTJS_API_URL || 'http://localhost:3010'
+
+  try {
+    // Get browserPort - throws error if not found
+    const browserPort = await getBrowserPort()
+    console.log(
+      `[Agent] Sending ${status} status with browserPort: ${browserPort}`,
+    )
+
+    const response = await fetch(`${apiBaseUrl}/api/browser/agent-status`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        status,
+        message,
+        conversationId,
+        messageId,
+        role,
+        timestamp: new Date().toISOString(),
+        parts,
+        browserPort,
+      }),
+    })
+
+    if (!response.ok) {
+      const errorText = await response.text()
+      console.error(
+        `[Agent] Agent status API returned ${response.status}:`,
+        errorText,
+      )
+    } else {
+      console.log(`[Agent] Successfully sent ${status} status`)
+    }
+  } catch (error) {
+    console.error('[Agent] Failed to send agent status:', error)
+  }
+}
+
 export const getResponseAndQueryFromMessageId = (
   messages: UIMessage[],
   messageId: string,
@@ -290,6 +372,100 @@ export const useChatSession = () => {
     conversationId: conversationIdRef.current,
   })
 
+  // Track if we've sent 'started' status for current conversation
+  const agentStartedRef = useRef<string | null>(null)
+
+  // Send 'started' status when agent begins processing
+  useEffect(() => {
+    if (
+      status === 'streaming' &&
+      agentStartedRef.current !== conversationIdRef.current
+    ) {
+      agentStartedRef.current = conversationIdRef.current
+
+      // Get the first user message (query) from messages
+      const firstUserMessage = messages.find((msg) => msg.role === 'user')
+      const queryMessage = firstUserMessage
+        ? firstUserMessage.parts
+            .filter((p) => p.type === 'text')
+            .map((p) => p.text)
+            .join('')
+        : ''
+
+      // Send started status with query message
+      sendAgentStatus(
+        'started',
+        queryMessage,
+        conversationIdRef.current,
+        `started_${Date.now()}`,
+        'assistant',
+        [],
+      )
+    }
+  }, [status, conversationId, messages])
+
+  // Log final agent message and send completed status
+  const lastSentMessageIdRef = useRef<string | null>(null)
+  useEffect(() => {
+    if (messages.length > 0) {
+      const lastMessage = messages[messages.length - 1]
+      // Only log final assistant messages (when status is not streaming)
+      if (
+        lastMessage.role === 'assistant' &&
+        status !== 'streaming' &&
+        lastMessage.id !== lastSentMessageIdRef.current
+      ) {
+        const content = lastMessage.parts
+          .filter((p) => p.type === 'text')
+          .map((p) => p.text)
+          .join('')
+
+        // biome-ignore lint/suspicious/noConsole: logging for debugging
+        console.log('[Agent] Final message:', content)
+
+        // Send completed status
+        sendAgentStatus(
+          'completed',
+          content,
+          conversationIdRef.current,
+          lastMessage.id,
+          lastMessage.role as 'assistant' | 'error',
+          lastMessage.parts
+            .filter((p) => p.type === 'text')
+            .map((p) => ({
+              type: 'text',
+              text: p.text,
+            })),
+        )
+
+        lastSentMessageIdRef.current = lastMessage.id
+      }
+    }
+  }, [messages, status])
+
+  // Send error to agent-status API when chatError occurs
+  const lastSentErrorRef = useRef<string | null>(null)
+  useEffect(() => {
+    if (chatError && chatError.message !== lastSentErrorRef.current) {
+      const errorMessage = chatError.message
+
+      // biome-ignore lint/suspicious/noConsole: logging for debugging
+      console.log('[Agent] Chat error detected:', errorMessage)
+
+      // Send error status
+      sendAgentStatus(
+        'completed',
+        errorMessage,
+        conversationIdRef.current,
+        `error_${Date.now()}`,
+        'error',
+        [{ type: 'text', text: errorMessage }],
+      )
+
+      lastSentErrorRef.current = errorMessage
+    }
+  }, [chatError])
+
   useEffect(() => {
     if (!conversationIdParam) return
 
@@ -368,7 +544,9 @@ export const useChatSession = () => {
   const resetConversation = () => {
     track(CONVERSATION_RESET_EVENT, { message_count: messages.length })
     stop()
-    setConversationId(crypto.randomUUID())
+    const newConversationId = crypto.randomUUID()
+    setConversationId(newConversationId)
+    agentStartedRef.current = null
     setMessages([])
     setTextToAction(new Map())
     setLiked({})

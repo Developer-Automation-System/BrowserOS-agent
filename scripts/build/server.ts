@@ -85,10 +85,6 @@ const REQUIRED_PROD_VARS = [
   'BROWSEROS_CONFIG_URL',
   'CODEGEN_SERVICE_URL',
   'POSTHOG_API_KEY',
-  'SENTRY_DSN',
-  'SENTRY_AUTH_TOKEN',
-  'SENTRY_ORG',
-  'SENTRY_PROJECT',
 ]
 
 function parseArgs(): { mode: 'prod' | 'dev'; targets: string[] } {
@@ -110,7 +106,7 @@ function parseArgs(): { mode: 'prod' | 'dev'; targets: string[] } {
 
   const targets =
     targetArg === 'all'
-      ? Object.keys(TARGETS)
+      ? Object.keys(TARGETS).filter((t) => !t.startsWith('windows-'))
       : targetArg.split(',').map((t) => t.trim())
 
   for (const target of targets) {
@@ -278,7 +274,6 @@ async function uploadSourceMaps(
 
 async function build(config: BuildConfig): Promise<void> {
   const { mode, targets, version, envVars, buildEnv } = config
-  const shouldUploadSourceMaps = mode === 'prod' && envVars.SENTRY_AUTH_TOKEN
 
   log.header(`Building BrowserOS server v${version}`)
   log.info(`Mode: ${mode}`)
@@ -294,12 +289,6 @@ async function build(config: BuildConfig): Promise<void> {
 
   mkdirSync('dist/server', { recursive: true })
 
-  if (shouldUploadSourceMaps) {
-    log.step('Building source maps...')
-    await buildSourceMaps(buildEnv)
-    log.success('Source maps built')
-  }
-
   log.step('Bundling with WASM plugin...')
   await bundleWithPlugins(envVars)
   log.success('Bundle created with embedded WASM')
@@ -312,13 +301,6 @@ async function build(config: BuildConfig): Promise<void> {
   }
 
   rmSync(BUNDLE_DIR, { recursive: true, force: true })
-
-  if (shouldUploadSourceMaps) {
-    log.step('Uploading source maps to Sentry...')
-    await uploadSourceMaps(version, envVars)
-    log.success('Source maps uploaded')
-    rmSync(SOURCEMAPS_DIR, { recursive: true, force: true })
-  }
 
   log.done('Build completed')
   for (const targetKey of targets) {
