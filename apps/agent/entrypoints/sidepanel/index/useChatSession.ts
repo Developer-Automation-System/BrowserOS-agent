@@ -52,7 +52,7 @@ const getBrowserPort = async (): Promise<number> => {
     chrome.storage.local.get('browseros_cdp_port', (result) => {
       if (result?.browseros_cdp_port) {
         const port = parseInt(String(result.browseros_cdp_port), 10)
-        if (!isNaN(port) && port > 0) {
+        if (!Number.isNaN(port) && port > 0) {
           resolve(port)
           return
         }

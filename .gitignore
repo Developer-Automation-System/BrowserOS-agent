@@ -3,3 +3,6 @@ apps/server/browseros-server.log
 apps/server/browseros.db-wal
 apps/server/browseros.db
 apps/server/browseros.db-shm
+apps/agent/dist
+apps/server/.env.production
+apps/server/.env.development
