@@ -19,6 +19,7 @@ export class WebSocketClient {
   private getPort: PortProvider
   private lastPongReceived: number = Date.now()
   private pendingPing = false
+  private currentPort: number | null = null // Track the connected port
 
   // Event handlers
   private messageHandlers = new Set<(msg: ProtocolResponse) => void>()
@@ -41,6 +42,7 @@ export class WebSocketClient {
 
     try {
       const port = await this.getPort()
+      this.currentPort = port // Store the port we're connecting to
       const url = this._buildUrl(port)
       logger.info(`Connecting to ${url}`)
 
@@ -128,6 +130,30 @@ export class WebSocketClient {
     this.pendingPing = false
     this._setStatus(ConnectionStatus.CONNECTED)
     this._startHeartbeat()
+    
+    // Store the successfully connected port in chrome.storage
+    if (this.currentPort !== null) {
+      try {
+        if (typeof chrome !== 'undefined' && chrome.storage && chrome.storage.local) {
+          chrome.storage.local.set(
+            { browseros_extension_port: this.currentPort.toString() },
+            () => {
+              if (chrome.runtime.lastError) {
+                logger.warn(
+                  `Failed to cache port in chrome.storage: ${chrome.runtime.lastError.message}`,
+                )
+              } else {
+                logger.info(
+                  `Cached port ${this.currentPort} in chrome.storage for reconnection`,
+                )
+              }
+            },
+          )
+        }
+      } catch (error) {
+        logger.warn(`Failed to cache port in chrome.storage: ${error}`)
+      }
+    }
   }
 
   private _handleMessage(event: MessageEvent): void {
@@ -213,9 +239,15 @@ export class WebSocketClient {
         return
       }
 
-      // Send ping
+      // Send ping - use direct string instead of JSON.stringify for efficiency
+      // This avoids JSON serialization overhead for the most frequent message type
       try {
-        this._sendSerialized({ type: 'ping' })
+        if (!this.ws || this.ws.readyState !== WebSocket.OPEN) {
+          return
+        }
+        
+        // Fast path: send simple ping message without JSON serialization overhead
+        this.ws.send('{"type":"ping"}')
         this.pendingPing = true
         logger.debug('Sent heartbeat ping')
 

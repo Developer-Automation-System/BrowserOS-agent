@@ -376,6 +376,9 @@ export class GeminiAgent {
     for (const requestInfo of toolCallRequests) {
       if (abortSignal.aborted) break
 
+      // Yield to event loop before heavy tool execution (allows WebSocket heartbeats to run)
+      await new Promise(resolve => setImmediate(resolve))
+
       await this.toolHooks?.onBeforeToolCall?.(
         requestInfo.name,
         requestInfo.args,
@@ -387,6 +390,9 @@ export class GeminiAgent {
         abortSignal,
         browserContext,
       )
+
+      // Yield after tool execution (prevents event loop blocking)
+      await new Promise(resolve => setImmediate(resolve))
 
       await this.toolHooks?.onAfterToolCall?.(
         requestInfo.name,

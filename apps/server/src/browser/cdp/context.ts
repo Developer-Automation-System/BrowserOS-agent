@@ -87,26 +87,51 @@ export class McpContext {
     this.browser = browser
     this.logger = logger
 
-    this.#networkCollector = new NetworkCollector(
-      this.browser,
-      (page, collect) => {
-        page.on('request', (request) => {
-          collect(request)
-        })
-      },
-    )
+    // Only collect network/console if explicitly needed (reduces CPU load significantly)
+    // Network requests fire very frequently and can saturate CPU
+    const enableNetworkCollection = process.env.ENABLE_NETWORK_DEBUG === 'true'
+    const enableConsoleCollection = process.env.ENABLE_CONSOLE_DEBUG === 'true'
 
-    this.#consoleCollector = new PageCollector(
-      this.browser,
-      (page, collect) => {
-        page.on('console', (event) => {
-          collect(event)
-        })
-        page.on('pageerror', (event) => {
-          collect(event)
-        })
-      },
-    )
+    if (enableNetworkCollection) {
+      this.#networkCollector = new NetworkCollector(
+        this.browser,
+        (page, collect) => {
+          page.on('request', (request) => {
+            collect(request)
+          })
+        },
+      )
+    } else {
+      // Create a no-op collector to avoid null checks
+      this.#networkCollector = new NetworkCollector(
+        this.browser,
+        () => {
+          // No-op: don't collect network requests
+        },
+      )
+    }
+
+    if (enableConsoleCollection) {
+      this.#consoleCollector = new PageCollector(
+        this.browser,
+        (page, collect) => {
+          page.on('console', (event) => {
+            collect(event)
+          })
+          page.on('pageerror', (event) => {
+            collect(event)
+          })
+        },
+      )
+    } else {
+      // Create a no-op collector to avoid null checks
+      this.#consoleCollector = new PageCollector(
+        this.browser,
+        () => {
+          // No-op: don't collect console messages
+        },
+      )
+    }
   }
 
   async #init() {

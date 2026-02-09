@@ -217,8 +217,8 @@ export const CreateGraph: FC = () => {
           return {
             api: `${agentUrlRef.current}/graph/${codeIdRef.current}/run`,
             body: {
-              provider: provider?.type,
-              providerType: provider?.type,
+              provider: provider?.type || 'google',
+              providerType: provider?.type || 'google',
               providerName: provider?.name,
               model: provider?.modelId ?? 'browseros',
               contextWindowSize: provider?.contextWindow,

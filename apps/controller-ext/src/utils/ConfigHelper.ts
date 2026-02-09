@@ -10,11 +10,56 @@ import { WEBSOCKET_CONFIG } from '@/config/constants'
 import { logger } from '@/utils/logger'
 
 /**
- * Get the WebSocket port from BrowserOS preferences
- * Returns browseros.server.extension_port preference value
- * Falls back to port from constants if preference cannot be retrieved
+ * Get the WebSocket port from chrome.storage (instance-specific) or BrowserOS preferences
+ * Prioritizes chrome.storage first as it's instance-specific and more reliable for reconnections
+ * Falls back to BrowserOS preferences, then to default port if neither is available
  */
 export async function getWebSocketPort(): Promise<number> {
+  // 1. Try chrome.storage first (instance-specific, stored via extension messaging API)
+  // This ensures we reconnect to the same server instance even if preferences change
+  try {
+    if (
+      typeof chrome !== 'undefined' &&
+      chrome.storage &&
+      chrome.storage.local
+    ) {
+      const stored = await new Promise<number | null>((resolve) => {
+        logger.info('[ConfigHelper] Getting port from chrome.storage')
+        chrome.storage.local.get('browseros_extension_port', (result) => {
+          if (chrome.runtime.lastError) {
+            logger.warn(
+              `[ConfigHelper] chrome.storage error: ${chrome.runtime.lastError.message}`,
+            )
+            resolve(null)
+            return
+          }
+          logger.info(`[ConfigHelper] chrome.storage result:`, result)
+          const port = result?.browseros_extension_port
+          if (port) {
+            const portNum = parseInt(String(port), 10)
+            if (!Number.isNaN(portNum) && portNum > 0) {
+              logger.info(`[ConfigHelper] Found port in chrome.storage: ${portNum}`)
+              resolve(portNum)
+              return
+            }
+          }
+          logger.warn(`[ConfigHelper] No valid port found in chrome.storage`)
+          resolve(null)
+        })
+      })
+
+      if (stored) {
+        logger.info(`Using port from chrome.storage: ${stored}`)
+        return stored
+      }
+    }
+  } catch (error) {
+    logger.warn(
+      `Failed to get port from chrome.storage: ${error}, trying BrowserOS preferences fallback`,
+    )
+  }
+
+  // 2. Fallback to BrowserOS preferences (set by BrowserOS at startup)
   try {
     const adapter = getBrowserOSAdapter()
     const pref = await adapter.getPref('browseros.server.extension_port')
@@ -23,15 +68,15 @@ export async function getWebSocketPort(): Promise<number> {
       logger.info(`Using port from BrowserOS preferences: ${pref.value}`)
       return pref.value
     }
-
-    logger.warn(
-      `Port preference not found, using default: ${WEBSOCKET_CONFIG.defaultExtensionPort}`,
-    )
-    return WEBSOCKET_CONFIG.defaultExtensionPort
   } catch (error) {
-    logger.error(
-      `Failed to get port from BrowserOS preferences: ${error}, using default: ${WEBSOCKET_CONFIG.defaultExtensionPort}`,
+    logger.warn(
+      `Failed to get port from BrowserOS preferences: ${error}, using default`,
     )
-    return WEBSOCKET_CONFIG.defaultExtensionPort
   }
+
+  // 3. Last resort: use default port
+  logger.warn(
+    `Port not found in storage or preferences, using default: ${WEBSOCKET_CONFIG.defaultExtensionPort}`,
+  )
+  return WEBSOCKET_CONFIG.defaultExtensionPort
 }

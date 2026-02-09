@@ -38,6 +38,7 @@ const getLastMessageText = (messages: UIMessage[]) => {
 
 /**
  * Get browserPort from chrome.storage - throws error if not found
+ * Retries with exponential backoff if port is not found
  */
 const getBrowserPort = async (): Promise<number> => {
   if (
@@ -48,22 +49,57 @@ const getBrowserPort = async (): Promise<number> => {
     throw new Error('Chrome storage API not available')
   }
 
-  return new Promise((resolve, reject) => {
-    chrome.storage.local.get('browseros_cdp_port', (result) => {
-      if (result?.browseros_cdp_port) {
-        const port = parseInt(String(result.browseros_cdp_port), 10)
-        if (!Number.isNaN(port) && port > 0) {
-          resolve(port)
-          return
-        }
+  const maxRetries = 5
+  const initialDelay = 500
+  const maxDelay = 5000
+
+  for (let attempt = 0; attempt < maxRetries; attempt++) {
+    try {
+      const port = await new Promise<number>((resolve, reject) => {
+        chrome.storage.local.get('browseros_cdp_port', (result) => {
+          if (chrome.runtime.lastError) {
+            reject(new Error(chrome.runtime.lastError.message))
+            return
+          }
+
+          if (result?.browseros_cdp_port) {
+            const port = parseInt(String(result.browseros_cdp_port), 10)
+            if (!Number.isNaN(port) && port > 0) {
+              resolve(port)
+              return
+            }
+          }
+          reject(
+            new Error(
+              'BrowserPort not found in chrome.storage. Make sure BrowserOS is started and open-new-tab.js has run.',
+            ),
+          )
+        })
+      })
+
+      if (attempt > 0) {
+        console.log(`[Agent] Successfully retrieved browserPort from chrome.storage after ${attempt} retries:`, port)
       }
-      reject(
-        new Error(
-          'BrowserPort not found in chrome.storage. Make sure BrowserOS is started and open-new-tab.js has run.',
-        ),
-      )
-    })
-  })
+      return port
+    } catch (error) {
+      const errorMessage = error instanceof Error ? error.message : String(error)
+      
+      if (attempt < maxRetries - 1) {
+        const delay = Math.min(initialDelay * Math.pow(2, attempt), maxDelay)
+        console.log(`[Agent] BrowserPort not found in chrome.storage (attempt ${attempt + 1}/${maxRetries}), retrying in ${delay}ms...`, {
+          error: errorMessage,
+          attempt: attempt + 1,
+          maxRetries,
+        })
+        await new Promise(resolve => setTimeout(resolve, delay))
+      } else {
+        console.error(`[Agent] Failed to retrieve browserPort from chrome.storage after ${maxRetries} attempts:`, errorMessage)
+        throw error
+      }
+    }
+  }
+
+  throw new Error('BrowserPort not found in chrome.storage after all retries')
 }
 
 /**
@@ -339,8 +375,8 @@ export const useChatSession = () => {
           api: `${agentUrlRef.current}/chat`,
           body: {
             message,
-            provider: provider?.type,
-            providerType: provider?.type,
+            provider: provider?.type || 'google',
+            providerType: provider?.type || 'google',
             providerName: provider?.name,
             apiKey: provider?.apiKey,
             baseUrl: provider?.baseUrl,

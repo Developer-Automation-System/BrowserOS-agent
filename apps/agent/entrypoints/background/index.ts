@@ -74,4 +74,23 @@ export default defineBackground(() => {
       }
     }
   })
+
+  // Handle port storage messages from page context
+  chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+    if (message.type === 'STORE_CDP_PORT') {
+      chrome.storage.local.set(
+        { browseros_cdp_port: message.port },
+        () => {
+          if (chrome.runtime.lastError) {
+            sendResponse({ success: false, error: chrome.runtime.lastError.message })
+          } else {
+            sendResponse({ success: true })
+          }
+        }
+      )
+      return true // Keep channel open for async response
+    }
+
+    return false // Not handled
+  })
 })

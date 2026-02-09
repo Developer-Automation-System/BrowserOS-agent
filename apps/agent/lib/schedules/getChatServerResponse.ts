@@ -100,8 +100,8 @@ export async function getChatServerResponse(
     body: JSON.stringify({
       messages: [{ role: 'user', content: request.message }],
       message: request.message,
-      provider: provider?.type,
-      providerType: provider?.type,
+      provider: provider?.type || 'google',
+      providerType: provider?.type || 'google',
       providerName: provider?.name,
       apiKey: provider?.apiKey,
       baseUrl: provider?.baseUrl,

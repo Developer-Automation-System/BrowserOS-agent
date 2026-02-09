@@ -81,8 +81,12 @@ function createMcpServerWithTools(deps: McpRouteDeps): McpServer {
         const windowId = params.windowId as number | undefined
         const guard = await mutexPool.getMutex(windowId).acquire()
         try {
+          // Yield to event loop before heavy tool execution (allows WebSocket heartbeats to run)
+          await new Promise(resolve => setImmediate(resolve))
+          
+          // Use compact JSON (no pretty printing) for better performance
           logger.info(
-            `${tool.name} request: ${JSON.stringify(params, null, '  ')}`,
+            `${tool.name} request: ${JSON.stringify(params)}`,
           )
 
           // Detect if this is a controller tool (browser_* tools)
@@ -95,6 +99,9 @@ function createMcpServerWithTools(deps: McpRouteDeps): McpServer {
           // Create response handler and execute tool
           const response = new McpResponse()
           await tool.handler({ params }, response, cdpContext)
+          
+          // Yield after tool execution (prevents event loop blocking)
+          await new Promise(resolve => setImmediate(resolve))
 
           // Process and return response
           try {
